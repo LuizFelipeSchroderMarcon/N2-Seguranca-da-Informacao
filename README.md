@@ -39,10 +39,12 @@ Siga os passos abaixo para executar o projeto localmente.
 3. Se necessario instale as dependencias npm install
 4. Logo depois disso pode iniciar o servidor
 
-
+---
 ### Executando o Front-End
 1. Acessa a pasta FormularioSegunda/Views/html
 2. Abra o arquivo formulario.html com a extensao Live Server do Vs Code ou clique duas vezes em cima dele para abrir diretamente no navegador
+
+---
 
 ### Informacoes Adicionais 
 -Um usuario de teste é criado quando o back-end é iniciado

@@ -1,0 +1,17 @@
+{
+  "name": "vulnerabilidade-back-end",
+  "version": "1.0.0",
+  "description": "API RESTful simples para criar e excluir usuários com JWT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Gustavo Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.1"
+  }
+}

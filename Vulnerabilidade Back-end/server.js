@@ -44,8 +44,17 @@ app.post('/login', async (req, res) => {
   }
 });
 
+app.post('/alterar-dados', (req, res) => {
+  if (!req.session.usuario) {
+    return res.status(401).send('Usuário não autenticado');
+  }
 
-// Cria o usuário inicial
+  console.log(`Usuário ${req.session.usuario.nome} tentou alterar os dados`);
+  res.send('Dados alterados com sucesso');
+});
+
+
+
 async function criarUsuarioInicial() {
   try {
     const usuarioExistente = await Usuario.obterPorEmail('teste@gmail.com');

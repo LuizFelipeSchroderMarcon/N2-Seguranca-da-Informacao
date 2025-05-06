@@ -50,3 +50,12 @@ Siga os passos abaixo para executar o projeto localmente.
 -Um usuario de teste é criado quando o back-end é iniciado
     Email: teste@gmail.com
     Senha: teste
+
+---
+### Relatório em Sumário Executivo
+- [Relatório em Sumário Executivo](https://catolicasc-my.sharepoint.com/:w:/g/personal/luiz_marcon_catolicasc_edu_br/EdejdAcY0t1Mtz9xUO80kj8BC-0lKoNwcrJqolymiI3FVw?e=Kf6Jby)
+
+---
+
+### Relatório Versão Técnica
+- [Relatório Versão Técnica](https://catolicasc-my.sharepoint.com/:w:/g/personal/luiz_marcon_catolicasc_edu_br/EcVRXtjXPdlDtOt5gEu-VPoBT3DazZwwk6DiVW0lDV2iCA?rtime=GdgDCymM3Ug)

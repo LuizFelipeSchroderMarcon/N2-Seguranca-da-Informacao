@@ -38,6 +38,13 @@ const usuarioController = {
       res.status(500).json({ message: 'Erro ao excluir usuário', error: error.message });
     }
   },
+
+  async listarUsuarios(req, res) {     
+    try {       
+      const usuarios = await Usuario.obterTodos();       
+      res.status(200).json(usuarios);    
+     } catch (error) {       
+    res.status(500).json({ message: 'Erro ao listar usuários', error: error.message }); } }
 };
 
 module.exports = usuarioController;

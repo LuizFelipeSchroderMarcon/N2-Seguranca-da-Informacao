@@ -29,7 +29,11 @@ const Usuario = {
   excluir: async (id) => {
     const [result] = await db.execute('DELETE FROM usuarios WHERE CD_USUARIO = ?', [id]);
     return result.affectedRows;
-  }
+  },
+
+  obterTodos: async () => {     
+    const [rows] = await db.execute('SELECT CD_USUARIO, NOME, EMAIL FROM usuarios');     
+    return rows; },
 };
 
 module.exports = Usuario;
